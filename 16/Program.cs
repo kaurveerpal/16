@@ -1,9 +1,9 @@
-﻿using System;
+﻿public delegate void MyDelegate();
 
-namespace DelegatesAndEvents
+public class DelegateExercises
 {
-    public delegate void MyDelegate();
-    public class DelegateExercises : MyDelegate
+    void Method3()
     {
+        System.Console.WriteLine(MyDelegate.ToString());
     }
 }
